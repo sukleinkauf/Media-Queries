@@ -19,6 +19,7 @@ body{
 }
 .inicial{
 	background-image: url("../img/fundo.jpg");
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	padding-bottom: 6%;
@@ -44,13 +45,15 @@ h3.fontinicial {
 	font-family: 'Changa One', cursive;
 	font-family: 'Sigmar One', cursive;
 }
+
 .sobreosite{
+
 	width: 40%;
 	height: 70%;
 	text-align: justify;
 	float:right;  
-	margin-top: 11%;
-	margin-bottom: 11%;
+	margin: 12% 5% 11% 0%;
+	border-radius: 2%;
 
 }
 
@@ -58,7 +61,6 @@ h1{
 	margin-right: 6%;
 	padding: 2%;
 	font-size: 160%;
-	box-shadow: 10px 10px 5px #888888;
 
 }
 /* Let's get this party started */
