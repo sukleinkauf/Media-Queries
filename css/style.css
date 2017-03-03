@@ -10,80 +10,85 @@ body{
 	
 
 }
+#all{
+
+	height:100%;
+	width:100%;
+	margin:auto;
+
+}
 .inicial{
 	background-image: url("../img/fundo.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	padding-bottom: 8%;
+	padding-bottom: 6%;
+	padding-top:6%; 
 }
 .container{
-	width: 30%;
-	height: 70%;
+	width: 40%;
+	height: 60%;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.8);
 	border-radius: 2%;
 	margin: 0 auto;
 	margin-top: 6%;
 	padding: 3% 0% 3% 0%;
 
 } 
-.containerdois{
-	width: 30%;
-	height: 70%;
-	margin-top: 10%;
-	float
-}
 h3.fontinicial {
 	margin: 0%;
 	line-height: 120%;
-	font-size: 600%;
+	font-size:  450%;
 	font-family: 'Alfa Slab One', cursive;
 	font-family: 'Boogaloo', cursive;
 	font-family: 'Changa One', cursive;
 	font-family: 'Sigmar One', cursive;
 }
-div.second{
-	margin-top: 50%;
-	width: 50%;
-	height: 50%,
-	/*background-color: rgba(140, 179, 217, 0.6);*/
-}
-.nav{
-	cursor: pointer;
-	font-size: 50%;
-}
-
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(52, 73, 94, 0.5);
+.sobreosite{
+	width: 40%;
+	height: 70%;
+	text-align: justify;
+	float:right;  
+	margin-top: 11%;
+	margin-bottom: 11%;
 
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
- 	display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: rgba(17, 17, 17,0.5);}
-
-/*ul.topnav li a.active {background-color: #4CAF50;}*/
-
-ul.topnav li.right {float: right;}
-
-nav select {
-  display: none; 
+h1{
+	margin-right: 6%;
+	padding: 2%;
+	font-size: 160%;
+	box-shadow: 10px 10px 5px #888888;
 
 }
+/* Let's get this party started */
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+	background: #050b0b;
+	border-radius: 0;
+}
+::-webkit-scrollbar-thumb {
+	background: #444;
+	border-radius: 0;
+}
+
 @media (max-width: 960px) {
-
-	nav ul     { display: none; }
-	nav select { display: inline-block; }
+	h3.fontinicial {
+		font-size: 150%;
+	}
+	h2.fontinicial{
+		font-size: 90%;
+	}
+	h1.sobre{
+		font-size: 100%;
+	}
+	.sobreosite{
+		float: none;
+		text-align: center;
+		width: 100%;
+		margin: 5%;
+	}
 }
+
