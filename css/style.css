@@ -3,118 +3,105 @@
 @import url('https://fonts.googleapis.com/css?family=Averia+Gruesa+Libre|Henny+Penny|Nosifer');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
-html, body {
-	margin: 0;
-	padding: 0;
-}
 
-body{
-	
- 	background-color:   #f5f5f0;
+@media only screen and (width: 412px){
+	.sobre{
+		margin-top: 10%;
+	}
 }
-#all{
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
 
-	height:100%;
-	width:100%;
-	margin:auto;
+	body{
+		
+	 	background-color:   #f5f5f0;
+	}
+	#all{
 
-}
-.inicial{
-	background-image: url("../img/fundo.jpg");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	padding-bottom: 9%;
-	padding-top:8%; 
-}
-.container{
-	width: 40%;
-	height: 70%;
-	text-align: center;
-	background-color: rgba(255, 255, 255, 0.8);
-	border-radius: 2%;
-	margin: 0 auto;
-	margin-top: 7%;
-	padding: 3% 0% 3% 0%;
+		height:100%;
+		width:100%;
+		margin:auto;
 
-} 
-h3.fontinicial {
-	margin: 0%;
-	line-height: 120%;
-	font-size:  300%;
-	font-family: 'Nosifer', cursive;
-}
-.fraseseries{
-	text-align: center;
-	font-family: 'Pacifico', cursive;
-	font-size: 200%;
-	color: #000d1a
-}
+	}
+	.inicial{
+		background-image: url("../img/fundo.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		padding-bottom: 9%;
+		padding-top:8%; 
+	}
+	.container{
+		width: 40%;
+		height: 70%;
+		text-align: center;
+		background-color: rgba(255, 255, 255, 0.8);
+		border-radius: 2%;
+		margin: 0 auto;
+		margin-top: 7%;
+		padding: 3% 0% 3% 0%;
 
-.containerdois{
-	width: 40%;
-	height: 60%;
-	text-align: center;
-	float: right;
-	background-color: rgba(26, 26, 26, 0.6);
-	color: white;
-	border-radius: 2%;
-	margin: 0 auto;
-	margin-top: 10%;
-	margin-right: 6%;
-	margin-bottom: 20%;
-	padding: 3%;
-}
-/*.partedois{
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
-	background-color: rgb(217, 217, 217); 
-	padding: 5%;
-}*/
+	} 
+	h3.fontinicial {
+		margin: 0%;
+		line-height: 120%;
+		font-size:  300%;
+		font-family: 'Nosifer', cursive;
+	}
 
-/*h1.sobre{
-	margin-right: 6%;
-	font-size: 160%;
-	font-family: 'Nosifer', cursive;
-	font-family: 'Henny Penny', cursive;
-	font-family: 'Averia Gruesa Libre', cursive;
-	width: 40%;
-	height: 70%;
-	text-align: justify;
-	float:right;  
+	.fraseseries{
+		text-align: center;
+		font-family: 'Pacifico', cursive;
+		font-size: 200%;
+		margin-top: 25%;
+	}
+	.sobre{
 
+		font-size: 130%
+		background-color: rgba(127, 105, 174, 0.8);
+		width: 40%;
+		margin-left: 6%;
+		display: block;
 
-}*/
-/* Let's get this party started */
-::-webkit-scrollbar {
-	width: 12px;
-}
-::-webkit-scrollbar-track {
-	background: #050b0b;
-	border-radius: 0;
-}
-::-webkit-scrollbar-thumb {
-	background: #444;
-	border-radius: 0;
-}
-/*.partequatro{
+	}
+	.dividedois{
 
-	width: 100%;
-	height: 100%;
-}
-/*.um{*/
-	/*max-width: 200px;
-	height: 200px;
-}
-.dois{
-	width: 200px;
-	height: 200px;
-}
-.tres{
-	width: 200px;
-	height: 200px;
-}*/*/
+		background-color: rgb(127, 105, 174);
+		float: right;
+		width: 100%;
+		height: 100%;
+	}
+
+	.containerdois{
+		width: 40%;
+		height: 80%;
+		background-image: url(../img/friends.png);
+		background-repeat:no-repeat;
+		background-size: 75%;
+		text-align: center;
+		float: right;
+		background-color: rgb(127, 105, 174);
+		color: white;
+		border-radius: 2%;
+		margin: 0 auto;
+		margin-top: 6%;
+		padding: 10% 3% 15% 10%;
+	}
+
+	/* Let's get this party started */
+	::-webkit-scrollbar {
+		width: 12px;
+	}
+	::-webkit-scrollbar-track {
+		background: #050b0b;
+		border-radius: 0;
+	}
+	::-webkit-scrollbar-thumb {
+		background: #444;
+		border-radius: 0;
+	}
 
 @media (max-width: 960px) {
 	h3.fontinicial {
@@ -123,14 +110,43 @@ h3.fontinicial {
 	h2.fontinicial{
 		font-size: 50%;
 	}
-	h1.sobre{
-		font-size: 100%;
+	.sobre{
+		font-size: 55%;
+		padding-left: 6%;
+		width: 45%;
+		margin-top: 20%;
+		margin-bottom: 25%;
+		margin-left:21%;
+
 	}
-	.sobreosite{
-		float: none;
-		text-align: center;
-		width: 100%;
-		margin: 5%;
+	.containerdois{
+		float:none;
+		width: 70%;
+		background-size:100%;
+		padding: 7%;
+		padding-right: 3%;
+		margin-left: 10%;
+	}
+	.fraseseries{
+		font-size: 120%;
+		margin-top: 4%;
 	}
 }
 
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+	.containerdois{
+		float:none;
+		width: 80%;
+		background-size:100%;
+		padding: 7%;
+		padding-right: 3%;
+		margin-left: 5%;
+	}
+	.sobre{
+		margin-top: 0 auto;
+
+	}
+	h2.fontinicial{
+		font-size: 50%;
+	}
+}
