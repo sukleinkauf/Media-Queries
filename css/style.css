@@ -213,6 +213,9 @@ img.foto:hover{
 	a.conhecer:link, a.conhecer:visited, a.conhecer:active, a.conhecer:hover{
 		font-size: 50%;
 	}
+	.topnav a { 
+ 		font-size: 80%;
+	}
 
 /*@media (max-width: 414px) {
 	
