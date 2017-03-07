@@ -4,125 +4,153 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 
-@media only screen and (width: 412px){
-	.sobre{
-		margin-top: 10%;
-	}
+html, body {
+	margin: 0;
+	padding: 0;
 }
-	html, body {
-		margin: 0;
-		padding: 0;
-	}
 
-	body{
-		
-	 	background-color:   #f5f5f0;
-	}
-	#all{
-
-		height:100%;
-		width:100%;
-		margin:auto;
-
-	}
-	.inicial{
-		background-image: url("../img/fundo.jpg");
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: 100%;
-		padding-bottom: 9%;
-		padding-top:8%; 
-	}
-	.container{
-		width: 40%;
-		height: 70%;
-		text-align: center;
-		background-color: rgba(255, 255, 255, 0.8);
-		border-radius: 2%;
-		margin: 0 auto;
-		margin-top: 7%;
-		padding: 3% 0% 3% 0%;
-
-	} 
-	h3.fontinicial {
-		margin: 0%;
-		line-height: 120%;
-		font-size:  300%;
-		font-family: 'Nosifer', cursive;
-	}
-
-	.fraseseries{
-		text-align: center;
-		font-family: 'Pacifico', cursive;
-		font-size: 200%;
-		margin-top: 25%;
-	}
-	.sobre{
-
-		font-size: 130%
-		background-color: rgba(127, 105, 174, 0.8);
-		width: 40%;
-		margin-left: 6%;
-		display: block;
-
-	}
-	.dividedois{
-
-		background-color: rgb(127, 105, 174);
-		float: right;
-		width: 100%;
-		height: 100%;
-	}
-
-	.containerdois{
-		width: 40%;
-		height: 80%;
-		background-image: url(../img/friends.png);
-		background-repeat:no-repeat;
-		background-size: 75%;
-		text-align: center;
-		float: right;
-		background-color: rgb(127, 105, 174);
-		color: white;
-		border-radius: 2%;
-		margin: 0 auto;
-		margin-top: 6%;
-		padding: 10% 3% 15% 10%;
-	}
+body{
 	
-	.dividetres{
+ 	background-color:   #f5f5f0;
+}
+#all{
+
+	height:100%;
+	width:100%;
+	margin:auto;
+
+}
+.inicial{
+	background-image: url("../img/fundo.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	background-size: 100%;
+	padding-bottom: 9%;
+	padding-top:8%; 
+}
+.container{
+	width: 40%;
+	height: 70%;
 	text-align: center;
-	margin-top: 10%;
-	padding-top: 10%;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 2%;
+	margin: 0 auto;
+	margin-top: 7%;
+	padding: 3% 0% 3% 0%;
 
-	}
+} 
+h3.fontinicial {
+	margin: 0%;
+	line-height: 120%;
+	font-size:  300%;
+	font-family: 'Nosifer', cursive;
+}
 
-	.tituloum{
-		font-family: 'Pacifico', cursive;
-		font-size: 300%;
-	}
-	.containerquatro{
-		margin-left: 10%;
-		margin-bottom: 3%;
-	}
-	img{
-		width: 150px;
-		height: 150px;
-	}
-	/* Let's get this party started */
-	::-webkit-scrollbar {
-		width: 12px;
-	}
-	::-webkit-scrollbar-track {
-		background: #050b0b;
-		border-radius: 0;
-	}
-	::-webkit-scrollbar-thumb {
-		background: #444;
-		border-radius: 0;
-	}
+.fraseseries{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 200%;
+	margin-top: 25%;
+}
+.sobre{
 
-@media (max-width: 960px) {
+	font-size: 130%
+	background-color: rgba(127, 105, 174, 0.8);
+	width: 40%;
+	margin-left: 6%;
+	display: block;
+
+}
+.dividedois{
+
+	background-color: rgb(127, 105, 174);
+	float: right;
+	width: 100%;
+	height: 100%;
+}
+
+.containerdois{
+	width: 40%;
+	height: 80%;
+	background-image: url(../img/friends.png);
+	background-repeat:no-repeat;
+	background-size: 75%;
+	text-align: center;
+	float: right;
+	background-color: rgb(127, 105, 174);
+	color: white;
+	border-radius: 2%;
+	margin: 0 auto;
+	margin-top: 6%;
+	padding: 10% 3% 15% 10%;
+}
+
+.dividetres{
+text-align: center;
+margin-top: 10%;
+padding-top: 10%;
+
+}
+
+.tituloum{
+	font-family: 'Pacifico', cursive;
+	font-size: 300%;
+}
+.containerquatro{
+	margin-left: 10%;
+	margin-bottom: 3%;
+}
+img{
+	width: 150px;
+	height: 150px;
+
+}
+img:hover{
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-webkit-transition: 1s all ease; /* É para pega no Chrome e Safira */
+	-moz-transition: 1s all ease; /* Firefox */
+	-o-transition: 1s all ease; /* Opera */
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+	background: #050b0b;
+	border-radius: 0;
+}
+::-webkit-scrollbar-thumb {
+	background: #444;
+	border-radius: 0;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2% 16px;
+  text-decoration: none;
+  font-size: 75%;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media (max-width: 414px) {
 	h3.fontinicial {
 		font-size: 130%;
 	}
@@ -156,31 +184,35 @@
 	img{
 		width: 50px;
 		height: 50px;
+
 	}
-}
+	.containerquatro{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
+	.topnav.responsive {
+		position: relative;
+	}
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+	.topnav.responsive .icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+	}
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav .icon {
-  display: none;
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
 }
 
 @media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
@@ -204,11 +236,19 @@
 		font-size: 50%;
 	}
 	.tituloum{
-		font-size: 100%
+		font-size: 100%;
 	}
+
 	img{
 		width: 50px;
-		height: 50px;
+		height: 55px;
+	}
+	.containerquatro{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.topnav a {
+		font-size: 54%;
 	}
 }
 @media (min-width: 768px) and (max-width: 1024px) { 
@@ -220,5 +260,17 @@
 	.fraseseries{
 		margin-top: 20%;
 		margin-left: 5%;
+	}
+	img{
+		max-width: 16%;
+		max-height: 16%;
+
+	}
+	.containerquatro{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.topnav a {
+		font-size: 150%;
 	}
 }
