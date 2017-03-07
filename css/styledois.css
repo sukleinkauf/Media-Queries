@@ -47,7 +47,7 @@ a.conhecer:link, a.conhecer:visited, a.conhecer:active, a.conhecer:hover {
 	background-color: rgba(255, 255, 255, 0.8);
 	border-radius: 2%;
 	margin: 0 auto;
-	margin-top: 5%;
+	margin-top: 7%;
 	padding: 3% 0% 3% 0%;
 
 } 
@@ -58,7 +58,7 @@ h3.fontinicial {
 	font-family: 'Nosifer', cursive;
 }
 
-/*.fraseseries{
+.fraseseries{
 	text-align: center;
 	font-family: 'Pacifico', cursive;
 	font-size: 200%;
@@ -72,25 +72,24 @@ h3.fontinicial {
 	margin-left: 6%;
 	display: block;
 
-}*/
-/*.dividedois{
+}
+.dividedois{
 
-	background-color: rgb(127, 105, 174);
-	float: right;
+	
 	width: 100%;
 	height: 100%;
 	padding-bottom: 10%;
+	background-image: url(../img/fundocoringa.png);
+	background-repeat:no-repeat;
+	background-size: 75%;
 }
 
 .containerdois{
 	width: 40%;
 	height: 80%;
-	background-image: url(../img/friends.png);
-	background-repeat:no-repeat;
-	background-size: 75%;
+	
 	text-align: center;
 	float: right;
-	background-color: rgb(127, 105, 174);
 	color: white;
 	border-radius: 2%;
 	margin: 0 auto;
@@ -123,12 +122,12 @@ img.foto:hover{
 	-webkit-transform: scale(1.5);
 	-o-transform: scale(1.5);
 	-webkit-transition: 1s all ease; /* É para pega no Chrome e Safira */
-	/*-moz-transition: 1s all ease;*/ /* Firefox */
-	/*-o-transition: 1s all ease; *//* Opera */
-/*}*/
+	-moz-transition: 1s all ease; /* Firefox */
+	-o-transition: 1s all ease; /* Opera */
+}
 
 /* Let's get this party started */
-/*::-webkit-scrollbar {
+::-webkit-scrollbar {
 	width: 12px;
 }
 ::-webkit-scrollbar-track {
@@ -138,7 +137,7 @@ img.foto:hover{
 ::-webkit-scrollbar-thumb {
 	background: #444;
 	border-radius: 0;
-}*/
+}
 .topnav {
   overflow: hidden;
   background-color: #000000;
@@ -162,160 +161,24 @@ img.foto:hover{
 .topnav .icon {
   display: none;
 }
-@media (max-width: 845px) {
-	.topnav a:not(:first-child) {
-		display: none;
-	}
-	.topnav a.icon {
-		float: right;
-		display: block;
-		margin-right: 6%;
-	}
-
-	.topnav.responsive {
-		position: relative;
-	}
-
-	.topnav.responsive .icon {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-
-	.topnav.responsive a {
-		float: none;
-		display: block;
-		text-align: left;
-	}
-	img.logo{
-		float: none;
-		max-width: 5%;
-		max-height: 6%;
-
-	}
-	h3.fontinicial {
-		font-size: 130%;
-	}
-}
-
-/*@media (max-width: 414px) {
-	
-	h2.fontinicial{
-		font-size: 50%;
-	}
-	.sobre{
-		font-size: 55%;
-		padding-left: 6%;
-		width: 45%;
-		margin-top: 20%;
-		margin-bottom: 25%;
-		margin-left:21%;
-
+@media (min-width: 973px) and (max-width: 1080px) { 
+	.sobre {
+		width: 36%;
+		font-size: 95%;
+		padding-top: 2%;
+		margin-left: 12%;
 	}
 	.containerdois{
-		float:none;
-		width: 70%;
-		background-size:100%;
-		padding: 7%;
-		padding-right: 3%;
-		margin-left: 10%;
-	}
-	.fraseseries{
-		font-size: 120%;
-		margin-top: 4%;
-	}
-	.tituloum{
-		font-size: 100%
-	}
-	img.foto{
-		width: 50px;
-		height: 50px;
-
-	}
-	.containerquatro{
-		width: 80%;
+		width: 55%;
 		margin: 0 auto;
-	}
-	.topnav a:not(:first-child) {
-		display: none;
-	}
-	.topnav a.icon {
-		float: right;
-		display: block;
-		margin-right: 6%;
-	}
-
-	.topnav.responsive {
-		position: relative;
-	}
-
-	.topnav.responsive .icon {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-
-	.topnav.responsive a {
-		float: none;
-		display: block;
-		text-align: left;
-	}
-	img.logo{
-		float: none;
-		max-width: 5%;
-		max-height: 6%;
-
-	}
-}*/
-
-/*@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
-	.containerdois{
-		float:none;
-		width: 80%;
-		background-size:100%;
-		padding: 7%;
-		padding-right: 3%;
-		margin-left: 5%;
-	}
-	.sobre{
-		margin-top: 0 auto;
-
+		margin-top: 7%;
+		margin-left: 2%;
+		margin-right: -5%;
+		padding-bottom: 18%;
 	}
 	.fraseseries{
-		margin-top: 1%;
-		font-size: 50%;
-	}
-	h2.fontinicial{
-		font-size: 5%;
-	}
-	.tituloum{
-		font-size: 100%;
-	}
-
-	img.foto{
-		width: 50px;
-		height: 55px;
-	}
-	.containerquatro{
-		width: 70%;
-		margin: 0 auto;
-	}
-	.topnav a {
-		font-size: 54%;
-	}
-	a.conhecer:link, a.conhecer:visited, a.conhecer:active, a.conhecer:hover{
-		font-size: 60%;
-	}
-}
-@media (min-width: 768px) and (max-width: 1024px) { 
-	.sobre{
-		font-size: 70%;
-		margin-right: 5%;
-
-	}
-	.fraseseries{
-		margin-top: 20%;
-		margin-left: 5%;
+		margin-top: 15%;
+		margin-left: 3%;
 	}
 	img.foto{
 		max-width: 16%;
@@ -323,10 +186,73 @@ img.foto:hover{
 
 	}
 	.containerquatro{
-		width: 70%;
+		width: 90%;
 		margin: 0 auto;
 	}
 	.topnav a {
 		font-size: 150%;
 	}
-}*/
+}
+@media (min-width: 736px) and (max-width: 972px) { 
+	.sobre {
+		width: 36%;
+		font-size: 80%;
+		padding-top: 2%;
+		margin-left: 12%;
+	}
+	.containerdois{
+		width: 60%;
+	    margin: 0 auto;
+	    margin-top: 1%;
+	    margin-left: 22%;
+		margin-right: -5%;
+		padding-bottom: 27%;
+		float: none;
+	}
+	.fraseseries{
+		margin-top: -5%;
+		margin-left: 3%;
+		font-size: 150%;
+	}
+	img.foto{
+		max-width: 16%;
+		max-height: 16%;
+
+	}
+	.containerquatro{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.topnav a {
+		font-size: 150%;
+	}
+		.topnav a:not(:first-child) {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		display: block;
+		margin-right: 6%;
+	}
+
+	.topnav.responsive {
+		position: relative;
+	}
+
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	img.logo{
+		float: none;
+		max-width: 5%;
+		max-height: 6%;
+
+	}
