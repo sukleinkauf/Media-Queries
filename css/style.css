@@ -163,6 +163,12 @@ img.foto:hover{
   display: none;
 }
 @media (max-width: 845px) {
+	h3.fontinicial {
+		font-size: 170%;
+	}
+	h2.fontinicial{
+		font-size: 60%;
+	}
 	.topnav a:not(:first-child) {
 		display: none;
 	}
@@ -186,6 +192,9 @@ img.foto:hover{
 		display: block;
 		text-align: left;
 	}
+}
+@media (max-width: 455px) {
+	
 	img.logo{
 		float: none;
 		max-width: 5%;
