@@ -169,7 +169,6 @@ img.foto:hover{
 	.topnav a.icon {
 		float: right;
 		display: block;
-		margin-right: 6%;
 	}
 
 	.topnav.responsive {
@@ -196,13 +195,28 @@ img.foto:hover{
 	h3.fontinicial {
 		font-size: 130%;
 	}
-}
-
-/*@media (max-width: 414px) {
-	
 	h2.fontinicial{
 		font-size: 50%;
 	}
+	a.conhecer:link, a.conhecer:visited, a.conhecer:active, a.conhecer:hover{
+		font-size: 50%;
+	}
+}
+
+@media (max-width: 360px) {
+	h3.fontinicial {
+		font-size: 100%;
+	}
+	h2.fontinicial{
+		font-size: 50%;
+	}
+	a.conhecer:link, a.conhecer:visited, a.conhecer:active, a.conhecer:hover{
+		font-size: 50%;
+	}
+
+/*@media (max-width: 414px) {
+	
+	
 	.sobre{
 		font-size: 55%;
 		padding-left: 6%;
