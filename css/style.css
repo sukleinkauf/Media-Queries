@@ -104,13 +104,13 @@ h3.fontinicial {
 
 .meio{
 	text-align: center;
-	margin-top: 25%;
+	margin-top: 35%;
 	padding-top: 10%;
 
 }
 .galeria{
 	font-family: 'Risque', cursive;
-	font-size: 300%;
+	font-size: 400%;
 	padding: 4%;
 }
 .containerquatro{
@@ -220,6 +220,10 @@ img.foto:hover{
 		padding: 1%;
 		font-size: 100%;
 	}
+	.containerquatro{
+		width: 90%;
+	}
+
 }
 @media (max-width: 584px) {
 	.containerdois{
@@ -227,6 +231,11 @@ img.foto:hover{
 	margin-top: 5%;
 	padding: 1%;
 	font-size: 90%;
+	}
+	img.foto{
+		width: 100px;
+		height: 100px;
+		margin: 0.3%;
 	}
 }
 @media (max-width: 455px) {
@@ -275,6 +284,11 @@ img.foto:hover{
 	}
 	.partetre{
 		display: none;
+	}
+		img.foto{
+		width: 80px;
+		height: 80px;
+		margin: 0.2%;
 	}
 
 /*@media (max-width: 414px) {
