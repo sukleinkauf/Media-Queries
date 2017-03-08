@@ -115,22 +115,23 @@ h3.fontinicial {
 .containerquatro{
 	margin-left: 10%;
 	margin-bottom: 3%;
-}
+}*/
 img.foto{
-	width: 150px;
-	height: 150px;
+	max-width: 90%;
+	max-height: 1%;
+	
 
 }
 img.foto:hover{
 	-moz-transform: scale(1.5);
 	-webkit-transform: scale(1.5);
 	-o-transform: scale(1.5);
-	-webkit-transition: 1s all ease;*/ /* É para pega no Chrome e Safira 
-	/*-moz-transition: 1s all ease;*/ /* Firefox */
-	/*-o-transition: 1s all ease; *//* Opera */
-/*}*/
+	-webkit-transition: 1s all ease;  /*É para pega no Chrome e Safira */
+	-moz-transition: 1s all ease;  /*Firefox */
+	-o-transition: 1s all ease; /* Opera 
+}
 
-/* Let's get this party started */
+/* Let's get this party started 
 /*::-webkit-scrollbar {
 	width: 12px;
 }
