@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Nosifer');
 @import url('https://fonts.googleapis.com/css?family=Averia+Gruesa+Libre|Henny+Penny|Nosifer');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
-
+@import url('https://fonts.googleapis.com/css?family=Risque');
+ /*fonte da descrição do site*/
 
 html, body {
 	margin: 0;
@@ -35,8 +36,8 @@ a.conhecer:link, a.conhecer:visited, a.conhecer:active, a.conhecer:hover {
 .inicial{
 	background-image: url("../img/fundo.jpg");
 	background-attachment: fixed;
-	background-repeat: repeat-y;
-	background-size: 100%;
+	background-repeat: repeat;
+	background-size: 50%;
 	padding-bottom: 9%;
 	padding-top:8%; 
 }
@@ -73,32 +74,33 @@ h3.fontinicial {
 	display: block;
 
 }*/
-/*.dividedois{
+.dividedois{
 
-	background-color: rgb(127, 105, 174);
+	background-image: url(../img/fundocoringa.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%;
 	float: right;
 	width: 100%;
 	height: 100%;
-	padding-bottom: 10%;
+	padding-bottom: 15%;
 }
 
 .containerdois{
-	width: 40%;
-	height: 80%;
-	background-image: url(../img/friends.png);
-	background-repeat:no-repeat;
-	background-size: 75%;
+	width: 60%;
 	text-align: center;
-	float: right;
-	background-color: rgb(127, 105, 174);
-	color: white;
+	float:left;
+	background-color: rgba(68, 45, 65, 0.5);
+	color:black;
 	border-radius: 2%;
 	margin: 0 auto;
-	margin-top: 6%;
-	padding: 10% 3% 15% 10%;
+	margin-left: 5%;
+	margin-top: 8%;
+	padding: 2%;
+	font-size: 130%;
+	font-family: 'Risque', cursive;
 }
 
-.dividetres{
+/*.dividetres{
 	text-align: center;
 	margin-top: 15%;
 	padding-top: 10%;
@@ -122,7 +124,7 @@ img.foto:hover{
 	-moz-transform: scale(1.5);
 	-webkit-transform: scale(1.5);
 	-o-transform: scale(1.5);
-	-webkit-transition: 1s all ease; /* É para pega no Chrome e Safira */
+	-webkit-transition: 1s all ease;*/ /* É para pega no Chrome e Safira 
 	/*-moz-transition: 1s all ease;*/ /* Firefox */
 	/*-o-transition: 1s all ease; *//* Opera */
 /*}*/
@@ -162,6 +164,7 @@ img.foto:hover{
 .topnav .icon {
   display: none;
 }
+
 @media (max-width: 845px) {
 	h3.fontinicial {
 		font-size: 170%;
@@ -192,6 +195,7 @@ img.foto:hover{
 		display: block;
 		text-align: left;
 	}
+
 }
 @media (max-width: 455px) {
 	
