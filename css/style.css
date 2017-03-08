@@ -83,7 +83,8 @@ h3.fontinicial {
 	float: right;
 	width: 100%;
 	height: 100%;
-	padding-bottom: 6%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 .containerdois{
@@ -91,35 +92,38 @@ h3.fontinicial {
 	text-align: center;
 	float:left;
 	background-color: rgba(68, 45, 65, 0.5);
-	color:black;
+	color:white;
 	border-radius: 2%;
 	margin: 0 auto;
 	margin-left: 5%;
-	margin-top: 8%;
+	margin-top: 4%;
 	padding: 3%;
 	font-size: 150%;
 	font-family: 'Risque', cursive;
 }
 
-/*.dividetres{
+.meio{
 	text-align: center;
-	margin-top: 15%;
+	margin-top: 25%;
 	padding-top: 10%;
 
 }
-
-.tituloum{
-	font-family: 'Pacifico', cursive;
+.galeria{
+	font-family: 'Risque', cursive;
 	font-size: 300%;
+	padding: 4%;
 }
 .containerquatro{
+	width: 80%;
+	margin: 0 auto;
 	margin-left: 10%;
 	margin-bottom: 3%;
-}*/
+	padding-left: 10%;
+}
 img.foto{
-	max-width: 90%;
-	max-height: 1%;
-	
+	width: 150px;
+	height: 150px;
+	margin: 0.3%;
 
 }
 img.foto:hover{
@@ -128,11 +132,11 @@ img.foto:hover{
 	-o-transform: scale(1.5);
 	-webkit-transition: 1s all ease;  /*É para pega no Chrome e Safira */
 	-moz-transition: 1s all ease;  /*Firefox */
-	-o-transition: 1s all ease; /* Opera 
+	-o-transition: 1s all ease; /* Opera*/ 
 }
 
-/* Let's get this party started 
-/*::-webkit-scrollbar {
+ Let's get this party started 
+::-webkit-scrollbar {
 	width: 12px;
 }
 ::-webkit-scrollbar-track {
@@ -142,7 +146,7 @@ img.foto:hover{
 ::-webkit-scrollbar-thumb {
 	background: #444;
 	border-radius: 0;
-}*/
+}
 .topnav {
   overflow: hidden;
   background-color: #000000;
@@ -203,6 +207,9 @@ img.foto:hover{
 		margin-top: 7%;
 		padding: 2%;
 		font-size: 120%;
+	}
+	img.logo{
+		float: none;
 	}
 }
 @media (max-width: 735px) {
@@ -265,6 +272,9 @@ img.foto:hover{
 	margin-top: 2%;
 	padding: 1%;
 	font-size: 70%;
+	}
+	.partetre{
+		display: none;
 	}
 
 /*@media (max-width: 414px) {
@@ -333,7 +343,7 @@ img.foto:hover{
 		max-height: 6%;
 
 	}
-}*/
+}
 
 /*@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
 	.containerdois{
@@ -396,4 +406,4 @@ img.foto:hover{
 	.topnav a {
 		font-size: 150%;
 	}
-}*/
+}
